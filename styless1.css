@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif; /* Fuente para todo el cuerpo del documento */
+    background-color: #f4f4f9; /* Color de fondo de la página */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: #fff; /* Fondo blanco para el contenedor */
+    padding: 20px; /* Espacio interior del contenedor */
+    border-radius: 10px; /* Esquinas redondeadas del contenedor */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para el contenedor */
+    width: 300px;
+}
+
+h1 {
+    text-align: center; /* Centrar el texto del encabezado */
+    color: #333; /* Color del texto del encabezado */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Espacio entre los elementos del formulario */
+}
+
+label {
+    font-weight: bold; /* Negrita para los textos de los labels */
+    color: #555; /* Color del texto de los labels */
+}
+
+input,
+select,
+button {
+    padding: 10px; /* Espacio interior para los inputs, select y buttons */
+    border: 1px solid #ccc; /* Borde para los inputs, select y buttons */
+    border-radius: 5px; /* Esquinas redondeadas para los inputs, select y buttons */
+    font-size: 16px; /* Tamaño de fuente para los inputs, select y buttons */
+}
+
+button {
+    background-color: #007bff; /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    border: none; /* Sin borde para el botón */
+    cursor: pointer; /* Cambia el cursor a pointer al pasar sobre el botón */
+    transition: background-color 0.3s; /* Transición suave para el cambio de color de fondo */
+}
+
+button:hover {
+    background-color: #0056b3; /* Cambio de color de fondo al pasar sobre el botón */
+}
+
+#resultado {
+    margin-top: 20px; /* Espacio superior para el resultado */
+    color: #28a745; /* Color del texto del resultado */
+    font-weight: bold; /* Negrita para el texto del resultado */
+    text-align: center; /* Centrar el texto del resultado */
+}
